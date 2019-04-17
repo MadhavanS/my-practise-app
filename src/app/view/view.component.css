@@ -1,0 +1,65 @@
+.btn-space {
+    margin-right: 5px;
+}
+
+
+/*
+.thumbnail {
+  width: 80%;
+  border: none;
+  position: relative;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+img {
+    left: 25.4961%;
+    top: 861.516px;
+    height: 300px;
+    width: 80%;
+} 
+
+.thumbnail p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: inherit;
+}
+*/
+
+
+/* .fx-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fx-column {
+    flex: 0 1 20%;
+}
+
+.fx-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.fx-card .image img {
+    width: 220px;
+    height: auto;
+}
+
+.fx-card article {
+    width: 220px;
+    padding: 10px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fx-card article p {
+    flex: 1
+}
+
+.fx-card article .bottom {
+    flex: 0;
+} */

@@ -1,0 +1,18 @@
+<div class="card-deck">
+    <div class="card" *ngFor="let mvs of moviesList" (click)="onMovieSelected(mvs)">
+        <hover-container>
+            <img class="card-img-top" [src]="mvs.imagePath" alt="{{mvs.name}}" class="img-responsive">
+            <!-- <div class="card-body">
+                <h5 class="card-title">{{ mvs.name }} <small> ({{mvs.year}}) </small></h5>
+            </div> -->
+            <ng-container overlay>
+                <h4>{{ mvs.name }} ({{mvs.year}}) </h4>
+                <app-star-rating [starCount]="mvs.starCount"></app-star-rating>
+                <div class="footer">
+                    <button class="btn btn-success btn-space" (click)="onDetailClicked(mvs)">Details</button>
+                    <button class="btn btn-success btn-space" (click)="onCastClicked(mvs)">Cast</button>
+                </div>
+            </ng-container>
+        </hover-container>
+    </div>
+</div>

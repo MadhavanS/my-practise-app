@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-practise-app';
+  title = 'my-practice-app';
+  displayMenu = 'view';
+
+  onNavigate(menu: string) {
+    this.displayMenu = menu;
+  }
 }
